@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>two-column-boxes</title>
+
+<style>
+
+* {
+	box-sizing: border-box;
+}		
+h1 {
+
+}
+
+.bothRows {
+
+	position: relative;
+	top: 500px;
+
+}
+.row1 {
+	
+}
+
+.row2 {
+
+}
+.emptySpace {
+ 
+
+}
+.randomTextBox {
+
+}
+
+.bottomSpace {
+
+}
+#topLeft, #topRight {
+	float: left;
+	width: 45%;
+	border:  1px solid black;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#middleSpaceTopRow, #middleSpaceBottomRow {
+	float: left;
+	width: 10%;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#bottomLeft, #bottomRight {
+	float: left;
+	width: 45%;
+	border:  1px solid black;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+#contentEmptySpace {
+	float: left;
+	width: 100%;
+	padding-bottom: 15%;
+	padding-top: 15%;
+	background-color: #7299df;
+	margin-bottom: 0px;
+	text-align: center;
+
+}
+
+#contentRandomTextBox {
+	background-color: red;
+	float: right;
+	border: 1px solid black;
+	text-align: 
+}
+#contentBottomSpace {
+	float: left;
+	width: 100%;
+	padding-bottom: 12.5%;
+	background-color: #aaaadf;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+</style>
+</head>
+<body>
+
+	<h1> Two by Two Boxes </h1>
+
+	<section class = "bothRows">
+		<div class = "row1"> 
+			<p id="topLeft"> Whats up Doc? </p>
+			<p id="middleSpaceTopRow"> </p>
+			<p id="topRight"> Whats up Doc? </p>
+		</div>
+
+
+		<div class = "row2">
+			<p id="bottomLeft"> Whats up Doc? </p>
+			<p id="middleSpaceBottomRow"> </p>
+			<p id="bottomRight"> What's up Doc?</p>
+		</div>
+	</section>
+
+	<section class = "emptySpace"> 
+		<p id ="contentEmptySpace"> Dead-Centered text that i'm checking out </p>
+	</section> 
+
+	<article class = "randomTextBox">
+		<p id ="contentRandomTextBox">  Some text that i'm testing out :) </p>
+	</article>
+
+	<section class = "bottomSpace">
+		<div id ="contentBottomSpace"> </div>
+	</section>
+
+</body>
+</html>
+
+
